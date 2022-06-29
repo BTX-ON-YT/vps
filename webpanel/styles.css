@@ -1,0 +1,24 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar {
+    position: sticky;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    background-color: #333333;
+    color: white;
+}
+.menu-select {
+    background-color: cyan;
+    box-shadow: cyan 0px 0px 5px;
+    width: 100%;
+    border: 0;
+    height: 50px;
+}
